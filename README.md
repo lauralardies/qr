@@ -26,18 +26,18 @@ Se intenta decodificar los datos en base64 utilizando la función base64.b64deco
 
 ## Ejecución
 
-Para poner en marcha el programa, debes ejecutar el lanzador, es decir, el archivo `run.py`. Hay varias maneras de hacer esto:
+No hay que instalar ninguna dependencia para que el programa funcione puesto que la única librería que empleamos, `base64`, es un módulo integrado, es decir, está incluido en la instalación estándar de Python. Para poner en marcha el programa, debes ejecutar el lanzador, es decir, el archivo `run.py`. Hay varias maneras de hacer esto:
 
 1. Puedes ejecutar el código en tu editor de código simplemente dándole al botón Run Python File del archivo `run.py`.
    
 2. También puedes ejecutar el siguiente comando en la terminal: 
-
-```
-python run.py
-```
-
-Hay que tener en cuenta que para que este comando funcione, debes de estar metido en la carpeta qr, que es la que contiene nuestro lanzador `run.py`. Para acceder a la carpeta puedes escribir esto en la terminal:
-
-```
-cd qr
-```
+   
+   ```
+   python run.py
+   ```
+   
+   Hay que tener en cuenta que para que este comando funcione, debes de estar metido en la carpeta qr, que es la que contiene nuestro lanzador. Para acceder a la carpeta puedes escribir esto en la terminal:
+   
+   ```
+   cd qr
+   ```
