@@ -36,7 +36,7 @@ No hay que instalar ninguna dependencia para que el programa funcione puesto que
    python run.py
    ```
    
-   Hay que tener en cuenta que para que este comando funcione, debes de estar metido en la carpeta qr, que es la que contiene nuestro lanzador. Para acceder a la carpeta puedes escribir esto en la terminal:
+   Hay que tener en cuenta que para que este comando funcione, debes de estar metido en la carpeta `qr`, que es la que contiene nuestro lanzador. Para acceder a la carpeta puedes escribir esto en la terminal:
    
    ```
    cd qr
