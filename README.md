@@ -2,7 +2,7 @@
 
 Este es el link del [repositorio](https://github.com/lauralardies/qr/tree/main).
 
-### Archivos
+## Archivos
 
 Todos los archivos se encuentran en una carpeta llamada `qr`, la cual contiene:
 - Una carpeta llamada `img`, donde encontraremos una imagen png que contiene un código QR denominado `flag.png`.
@@ -10,11 +10,11 @@ Todos los archivos se encuentran en una carpeta llamada `qr`, la cual contiene:
 - Un archivo de Python llamado `main.py` que contiene el mensaje a decodificar, llama a la función del archivo anterior para decodificarla y muestra la solución en pantalla.
 - Un archivo de Python llamado `run.py` que es el lanzador del programa. 
 
-### Tarea
+## Tarea
 
 En esta tarea nos propusieron leer un código QR y descubrir el mensaje que escondía. 
 
-### Resolución
+## Resolución
 
 Para afrontarnos a este problema hemos hecho uso de la libería `base64`, un módulo integrado que proporciona funciones para codificar y decodificar datos utilizando el esquema Base64. 
 
@@ -24,7 +24,7 @@ Se intenta decodificar los datos en base64 utilizando la función base64.b64deco
 
 > **¿Por qué hacemos la función recursiva?** Esto nos permite manejar casos en los que el mensaje base64 está codificado múltiples veces, es decir, en donde la decodificación una vez no es suficiente para obtener el mensaje original.
 
-### Ejecución
+## Ejecución
 
 Para poner en marcha el programa, debes ejecutar el lanzador, es decir, el archivo `run.py`. Hay varias maneras de hacer esto:
 
